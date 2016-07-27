@@ -3,19 +3,19 @@ package chapter02;
 
 public class Apple {
 
-	private int weight;
+	private Integer weight;
 	private String color;
 
-	public Apple(int weight, String color) {
+	public Apple(Integer weight, String color) {
 		this.weight = weight;
 		this.color = color;
 	}
 
-	public int getWeight() {
+	public Integer getWeight() {
 		return weight;
 	}
 
-	public void setWeight(int weight) {
+	public void setWeight(Integer weight) {
 		this.weight = weight;
 	}
 
